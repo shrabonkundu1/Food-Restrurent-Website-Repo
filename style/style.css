@@ -240,17 +240,19 @@ margin-bottom: 15px ;
 /* My footer start */
 
 .footer {
-    /* background-image:  url("../assets/social-bg.png"); Path to your background image */
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0)),url(../assets/social-bg.png); 
-    background-size: cover; /* Adjust the size of the background image */
-    background-position: center; /* Center the background image */
-    color: rgb(255, 255, 255); /* Text color for visibility */
-    text-align: center; /* Center-align text */
-    padding: 50px 20px; /* Padding inside the footer */
+
+    
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),url(../assets/social-bg.png); 
+    background-size: cover; 
+    background-position: center; 
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    padding: 50px 20px; 
+    background-blend-mode: overlay;
 }
 
 .footer-content {
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    background: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
